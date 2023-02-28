@@ -42,7 +42,7 @@ function unlockScroll() {
 function createSecondCardTitleInterval() {
     setInterval(function() {
         smoothContinuousTitleSwap(document.getElementsByClassName('secondCardTitle')[0], 'contact@marcariza.com', 'MARC ARIZA BARRIOS');
-    }, 5500);
+    }, 4000);
 }
 
 function createSecondCardEnterTextInterval() {

@@ -219,6 +219,14 @@ li {
     padding: 0.3vh;
 }
 
+.mobileSideLeftContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3vh;
+    margin-top: 1.5vh;
+}
+
 
 
 /*
@@ -433,9 +441,17 @@ footer {
     .extraSkillsList {
         columns: 1;
     }
+
+    .presentationContainer {
+        flex-direction: column;
+    }
+
+    .presentationContainer:nth-child(even) {
+        flex-direction: column;
+    }
 }
 
-@media (max-aspect-ratio: 9 / 14) {
+@media (max-aspect-ratio: 10 / 14) {
     .initialCardSmallTitle {
         font-size: 2.35vh;
     }
@@ -458,6 +474,10 @@ footer {
 
     .subjectList, .techSkillsList {
         columns: 1;
+    }
+
+    .mobileSideLeftContainer {
+        display: block;
     }
 }
 
