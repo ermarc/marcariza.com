@@ -48,11 +48,11 @@ body {
 }
 
 .initialCardSmallTitle {
-    font-size: 5.5rem;
+    font-size: 8.5vh;
 }
 
 .initialCardFullTitle {
-    font-size: 9rem;
+    font-size: 19vh;
 }
 
 .secondCardEnterText {
