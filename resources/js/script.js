@@ -3,7 +3,6 @@ calculateCurrentAge();
 
 let idInterval = 0;
 
-
 setTimeout(function() {
     window.scrollTo({top: 0});
     createSecondCardEnterTextInterval();
@@ -41,7 +40,7 @@ function unlockScroll() {
 
 function createSecondCardTitleInterval() {
     setInterval(function() {
-        smoothContinuousTitleSwap(document.getElementsByClassName('secondCardTitle')[0], 'contact@marcariza.com', 'MARC ARIZA BARRIOS');
+        smoothContinuousTitleSwap(document.getElementsByClassName('secondCardTitle')[0], 'info@marcariza.com', 'MARC ARIZA BARRIOS');
     }, 4000);
 }
 
@@ -67,7 +66,7 @@ function fixSecondCardTitle() {
 }
 
 function switchToEmail() {
-    window.location = 'mailto:contact@marcariza.com';
+    window.location = 'mailto:info@marcariza.com';
 }
 
 function animationObserver(elementType, option) {
@@ -99,10 +98,6 @@ function fillProgressBars() {
     for (let i = 0; i < element.length; i++) {
         element[i].style = `width: ${element[i].title}%; animation: fillTransformX 1s forwards ease-out;`;
     }
-}
-
-function addClassList(element) {
-    console.log(element);
 }
 
 function calculateCurrentAge() {
